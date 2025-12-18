@@ -5,7 +5,7 @@
 	(uuid "2fdb04a5-9ef0-4562-a058-20208c98699a")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Amplifier_Operational:MCP6022"
+		(symbol "Amplifier_Operational:LMV358"
 			(pin_names
 				(offset 0.127)
 			)
@@ -21,7 +21,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "MCP6022"
+			(property "Value" "LMV358"
 				(at 0 -5.08 0)
 				(effects
 					(font
@@ -39,7 +39,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://ww1.microchip.com/downloads/en/devicedoc/20001685e.pdf"
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lmv324.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -48,7 +48,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Dual Operational Amplifiers, Rail-to-Rail Input/Output, DIP-8/SOIC-8/TSSOP-8"
+			(property "Description" "Dual Low-Voltage Rail-to-Rail Output Operational Amplifiers, SOIC-8/SSOP-8"
 				(at 0 0 0)
 				(effects
 					(font
@@ -65,7 +65,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "dual opamp rail-to-rail"
+			(property "ki_keywords" "single opamp"
 				(at 0 0 0)
 				(effects
 					(font
@@ -83,7 +83,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "MCP6022_1_1"
+			(symbol "LMV358_1_1"
 				(polyline
 					(pts
 						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
@@ -151,7 +151,7 @@
 					)
 				)
 			)
-			(symbol "MCP6022_2_1"
+			(symbol "LMV358_2_1"
 				(polyline
 					(pts
 						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
@@ -219,7 +219,7 @@
 					)
 				)
 			)
-			(symbol "MCP6022_3_1"
+			(symbol "LMV358_3_1"
 				(pin power_in line
 					(at -2.54 7.62 270)
 					(length 3.81)
@@ -1466,6 +1466,16 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 81.28) (xy 144.78 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "088c6e6e-f453-4e91-8184-e82931e55055")
+	)
+	(wire
+		(pts
 			(xy 63.5 17.78) (xy 63.5 19.05)
 		)
 		(stroke
@@ -1473,6 +1483,16 @@
 			(type default)
 		)
 		(uuid "0fd6aab5-ab7a-44da-82ae-fc4390ffa766")
+	)
+	(wire
+		(pts
+			(xy 147.32 86.36) (xy 151.13 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11751092-78ed-48cb-8942-8cbd580e83c4")
 	)
 	(wire
 		(pts
@@ -1496,6 +1516,16 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 88.9) (xy 132.08 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17ed3ccc-e88d-4fb8-bc8f-130cdbd7dc83")
+	)
+	(wire
+		(pts
 			(xy 53.34 62.23) (xy 53.34 99.06)
 		)
 		(stroke
@@ -1516,7 +1546,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 127) (xy 36.83 127)
+			(xy 34.29 127) (xy 46.99 127)
 		)
 		(stroke
 			(width 0)
@@ -1526,13 +1556,23 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 57.15) (xy 142.24 57.15)
+			(xy 153.67 55.88) (xy 157.48 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2d26f488-d17d-46c0-b7b3-edb46fe19706")
+		(uuid "2444c6af-4f91-4ff4-a18b-26a89a5f8e4a")
+	)
+	(wire
+		(pts
+			(xy 135.89 68.58) (xy 138.43 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28cea74c-f108-4f58-8b57-d100476c64e5")
 	)
 	(wire
 		(pts
@@ -1546,13 +1586,23 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 127) (xy 46.99 127)
+			(xy 127 60.96) (xy 135.89 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3e0ecffe-2e17-422c-92a2-41971811b187")
+		(uuid "304024a4-68c2-49cb-aa27-3a6fbfef7fb0")
+	)
+	(wire
+		(pts
+			(xy 135.89 60.96) (xy 135.89 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37ec39fd-5cda-484b-8ea0-bf3f038d8d1d")
 	)
 	(wire
 		(pts
@@ -1576,13 +1626,13 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 127) (xy 116.84 127)
+			(xy 127 57.15) (xy 138.43 57.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "526f154f-8a42-48c5-ae93-b4dbbb41c4ba")
+		(uuid "4e6a143c-6694-4804-9a13-b19be24ab34f")
 	)
 	(wire
 		(pts
@@ -1596,6 +1646,16 @@
 	)
 	(wire
 		(pts
+			(xy 127 60.96) (xy 127 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a166b63-7f7b-4fb0-aca0-e24335d8cec8")
+	)
+	(wire
+		(pts
 			(xy 125.73 54.61) (xy 127 54.61)
 		)
 		(stroke
@@ -1603,6 +1663,16 @@
 			(type default)
 		)
 		(uuid "6b5a2d92-3fe0-4683-90a6-f4034db840f0")
+	)
+	(wire
+		(pts
+			(xy 127 57.15) (xy 127 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82944bac-2db4-49b9-9a34-f4b384e499a7")
 	)
 	(wire
 		(pts
@@ -1626,7 +1696,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 77.47) (xy 144.78 77.47)
+			(xy 144.78 81.28) (xy 151.13 81.28)
 		)
 		(stroke
 			(width 0)
@@ -1666,7 +1736,17 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 77.47) (xy 144.78 86.36)
+			(xy 138.43 57.15) (xy 138.43 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d5458a5-c9b4-4375-9f7c-3b0d336b7e3d")
+	)
+	(wire
+		(pts
+			(xy 151.13 81.28) (xy 151.13 86.36)
 		)
 		(stroke
 			(width 0)
@@ -1686,23 +1766,23 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 48.26) (xy 146.05 57.15)
+			(xy 138.43 67.31) (xy 138.43 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a68cd461-1a46-48e2-9ea5-675252bd467e")
+	)
+	(wire
+		(pts
+			(xy 157.48 48.26) (xy 157.48 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "a6ce16d7-dead-47cb-9af6-a780dd50ed3b")
-	)
-	(wire
-		(pts
-			(xy 139.7 86.36) (xy 144.78 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a764db7d-dc97-42b6-a0c1-2e9615b75a99")
 	)
 	(wire
 		(pts
@@ -1726,7 +1806,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 48.26) (xy 146.05 48.26)
+			(xy 138.43 48.26) (xy 157.48 48.26)
 		)
 		(stroke
 			(width 0)
@@ -1743,6 +1823,26 @@
 			(type default)
 		)
 		(uuid "c72d1897-537b-4417-ac7f-865cbdf77610")
+	)
+	(wire
+		(pts
+			(xy 144.78 77.47) (xy 135.89 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf0b6e56-d5d9-404a-b338-313855828eee")
+	)
+	(wire
+		(pts
+			(xy 153.67 64.77) (xy 153.67 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d36383c8-076d-4217-816b-202a0a943c58")
 	)
 	(wire
 		(pts
@@ -1826,6 +1926,16 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 83.82) (xy 132.08 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f460307c-30df-4add-8b96-06d680c1449e")
+	)
+	(wire
+		(pts
 			(xy 135.89 24.13) (xy 139.7 24.13)
 		)
 		(stroke
@@ -1836,7 +1946,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 127) (xy 106.68 127)
+			(xy 104.14 127) (xy 116.84 127)
 		)
 		(stroke
 			(width 0)
@@ -1846,7 +1956,7 @@
 	)
 	(global_label "Vout2"
 		(shape input)
-		(at 144.78 86.36 0)
+		(at 151.13 86.36 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1856,7 +1966,7 @@
 		)
 		(uuid "02e94b2a-ef85-498c-ad38-6d1aa1a69d2e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 153.087 86.36 0)
+			(at 159.437 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2198,7 +2308,7 @@
 	)
 	(global_label "Vout1"
 		(shape input)
-		(at 146.05 57.15 0)
+		(at 157.48 55.88 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2208,7 +2318,7 @@
 		)
 		(uuid "c77dc006-fc30-4289-8144-da194f19154b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 154.357 57.15 0)
+			(at 165.787 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2391,74 +2501,6 @@
 			(project ""
 				(path "/2fdb04a5-9ef0-4562-a058-20208c98699a"
 					(reference "#PWR012")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 110.49 127 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0bb0ffb7-372f-443a-b65e-a1fe930fca7f")
-		(property "Reference" "R15"
-			(at 110.49 120.65 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "200"
-			(at 110.49 123.19 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 110.49 128.778 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 110.49 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 110.49 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e5098968-afd8-4c83-af8b-8ba7877548d6")
-		)
-		(pin "1"
-			(uuid "16ba8916-faf4-49e9-b47b-1c3d22e35c3a")
-		)
-		(instances
-			(project "raw_hall_elements"
-				(path "/2fdb04a5-9ef0-4562-a058-20208c98699a"
-					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -2729,91 +2771,6 @@
 				(path "/2fdb04a5-9ef0-4562-a058-20208c98699a"
 					(reference "R2")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Amplifier_Operational:MCP6022")
-		(at 132.08 86.36 0)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "22055a06-2058-460a-a191-76575f2c9e46")
-		(property "Reference" "U1"
-			(at 131.318 84.328 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MCP6022"
-			(at 131.826 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8-N7_3.9x4.9mm_P1.27mm"
-			(at 132.08 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://ww1.microchip.com/downloads/en/devicedoc/20001685e.pdf"
-			(at 132.08 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual Operational Amplifiers, Rail-to-Rail Input/Output, DIP-8/SOIC-8/TSSOP-8"
-			(at 132.08 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "7"
-			(uuid "d4a8f059-bd63-417e-94d7-68aab462eae0")
-		)
-		(pin "8"
-			(uuid "1e0cfb82-21cd-4a0f-96d5-db6e6f9bd023")
-		)
-		(pin "4"
-			(uuid "f361ac93-aee9-435e-a2f6-89f8231b21ad")
-		)
-		(pin "6"
-			(uuid "064284fa-e108-4e49-b850-e9b1793c883d")
-		)
-		(pin "5"
-			(uuid "8d19a299-2922-4080-a328-b06f643def68")
-		)
-		(pin "1"
-			(uuid "8a64bfdf-2940-4f19-a8a3-7cc7b8b3d724")
-		)
-		(pin "2"
-			(uuid "019d8fa3-17f1-49b8-9502-e0d161557df2")
-		)
-		(pin "3"
-			(uuid "98c8f1fe-99a8-42b4-9d93-0905f2c859d8")
-		)
-		(instances
-			(project ""
-				(path "/2fdb04a5-9ef0-4562-a058-20208c98699a"
-					(reference "U1")
-					(unit 2)
 				)
 			)
 		)
@@ -3432,42 +3389,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 40.64 127 90)
-		(unit 1)
+		(lib_id "Amplifier_Operational:LMV358")
+		(at 66.04 26.67 0)
+		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "4e04ce25-a4d8-48b7-b4c0-784ea1ef5251")
-		(property "Reference" "R14"
-			(at 40.64 120.65 90)
+		(uuid "4ff9bb6f-7349-4aa2-b4e7-586bccd61383")
+		(property "Reference" "U1"
+			(at 64.77 25.3999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "200"
-			(at 40.64 123.19 90)
+		(property "Value" "LMV358"
+			(at 64.77 27.9399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 40.64 128.778 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 40.64 127 0)
+		(property "Footprint" "Package_DFN_QFN:OnSemi_UDFN-8_1.2x1.8mm_P0.4mm"
+			(at 66.04 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3475,8 +3425,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 40.64 127 0)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lmv324.pdf"
+			(at 66.04 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3484,17 +3434,44 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "6955eb78-d629-41c2-8bf9-a98093e11466")
+		(property "Description" "Dual Low-Voltage Rail-to-Rail Output Operational Amplifiers, SOIC-8/SSOP-8"
+			(at 66.04 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "90123426-823d-4d65-95d9-8fba1497bdfa")
 		)
 		(pin "1"
-			(uuid "91e1ad11-0894-4fdb-8d8f-c022683dd633")
+			(uuid "9a19b201-f421-42d7-923e-7b03a911a48f")
+		)
+		(pin "2"
+			(uuid "cd59941b-6f76-4814-8209-00925940b5eb")
+		)
+		(pin "4"
+			(uuid "bc1075bc-9cc5-491e-9ec1-e03ddda54e57")
+		)
+		(pin "5"
+			(uuid "d8778b05-71d3-4502-bb3a-22d6566a6fd5")
+		)
+		(pin "3"
+			(uuid "b363beb3-4ffd-49fc-8f46-9832b6b3b292")
+		)
+		(pin "6"
+			(uuid "47f9f657-0a41-4b6e-987d-09e810f009f2")
+		)
+		(pin "7"
+			(uuid "4bfeb567-f152-4ff8-9286-bc51c34a09e7")
 		)
 		(instances
 			(project ""
 				(path "/2fdb04a5-9ef0-4562-a058-20208c98699a"
-					(reference "R14")
-					(unit 1)
+					(reference "U1")
+					(unit 3)
 				)
 			)
 		)
@@ -3773,91 +3750,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:MCP6022")
-		(at 134.62 57.15 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5b208fb3-0a83-44cc-8c69-4be17d95968d")
-		(property "Reference" "U1"
-			(at 134.112 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MCP6022"
-			(at 134.112 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8-N7_3.9x4.9mm_P1.27mm"
-			(at 134.62 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://ww1.microchip.com/downloads/en/devicedoc/20001685e.pdf"
-			(at 134.62 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual Operational Amplifiers, Rail-to-Rail Input/Output, DIP-8/SOIC-8/TSSOP-8"
-			(at 134.62 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "7"
-			(uuid "d4a8f059-bd63-417e-94d7-68aab462eae1")
-		)
-		(pin "8"
-			(uuid "1e0cfb82-21cd-4a0f-96d5-db6e6f9bd024")
-		)
-		(pin "4"
-			(uuid "f361ac93-aee9-435e-a2f6-89f8231b21ae")
-		)
-		(pin "6"
-			(uuid "064284fa-e108-4e49-b850-e9b1793c883e")
-		)
-		(pin "5"
-			(uuid "8d19a299-2922-4080-a328-b06f643def69")
-		)
-		(pin "1"
-			(uuid "8a64bfdf-2940-4f19-a8a3-7cc7b8b3d725")
-		)
-		(pin "2"
-			(uuid "019d8fa3-17f1-49b8-9502-e0d161557df3")
-		)
-		(pin "3"
-			(uuid "98c8f1fe-99a8-42b4-9d93-0905f2c859d9")
-		)
-		(instances
-			(project ""
-				(path "/2fdb04a5-9ef0-4562-a058-20208c98699a"
-					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 27.94 24.13 90)
 		(unit 1)
@@ -4126,6 +4018,92 @@
 		)
 	)
 	(symbol
+		(lib_id "Amplifier_Operational:LMV358")
+		(at 139.7 86.36 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8de1675f-2697-44f6-b361-8c1e00682239")
+		(property "Reference" "U1"
+			(at 139.7 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LMV358"
+			(at 139.7 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DFN_QFN:OnSemi_UDFN-8_1.2x1.8mm_P0.4mm"
+			(at 139.7 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lmv324.pdf"
+			(at 139.7 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual Low-Voltage Rail-to-Rail Output Operational Amplifiers, SOIC-8/SSOP-8"
+			(at 139.7 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "90123426-823d-4d65-95d9-8fba1497bdfa")
+		)
+		(pin "1"
+			(uuid "9a19b201-f421-42d7-923e-7b03a911a48f")
+		)
+		(pin "2"
+			(uuid "cd59941b-6f76-4814-8209-00925940b5eb")
+		)
+		(pin "4"
+			(uuid "bc1075bc-9cc5-491e-9ec1-e03ddda54e57")
+		)
+		(pin "5"
+			(uuid "d8778b05-71d3-4502-bb3a-22d6566a6fd5")
+		)
+		(pin "3"
+			(uuid "b363beb3-4ffd-49fc-8f46-9832b6b3b292")
+		)
+		(pin "6"
+			(uuid "47f9f657-0a41-4b6e-987d-09e810f009f2")
+		)
+		(pin "7"
+			(uuid "4bfeb567-f152-4ff8-9286-bc51c34a09e7")
+		)
+		(instances
+			(project ""
+				(path "/2fdb04a5-9ef0-4562-a058-20208c98699a"
+					(reference "U1")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 71.12 127 90)
 		(unit 1)
@@ -4256,94 +4234,6 @@
 				(path "/2fdb04a5-9ef0-4562-a058-20208c98699a"
 					(reference "#PWR09")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Amplifier_Operational:MCP6022")
-		(at 66.04 26.67 0)
-		(unit 3)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "97b0af2a-7348-44e9-9c65-fed08f5cfcbc")
-		(property "Reference" "U1"
-			(at 64.77 25.3999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MCP6022"
-			(at 64.77 27.9399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8-N7_3.9x4.9mm_P1.27mm"
-			(at 66.04 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://ww1.microchip.com/downloads/en/devicedoc/20001685e.pdf"
-			(at 66.04 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual Operational Amplifiers, Rail-to-Rail Input/Output, DIP-8/SOIC-8/TSSOP-8"
-			(at 66.04 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "7"
-			(uuid "d4a8f059-bd63-417e-94d7-68aab462eae2")
-		)
-		(pin "8"
-			(uuid "1e0cfb82-21cd-4a0f-96d5-db6e6f9bd025")
-		)
-		(pin "4"
-			(uuid "f361ac93-aee9-435e-a2f6-89f8231b21af")
-		)
-		(pin "6"
-			(uuid "064284fa-e108-4e49-b850-e9b1793c883f")
-		)
-		(pin "5"
-			(uuid "8d19a299-2922-4080-a328-b06f643def6a")
-		)
-		(pin "1"
-			(uuid "8a64bfdf-2940-4f19-a8a3-7cc7b8b3d726")
-		)
-		(pin "2"
-			(uuid "019d8fa3-17f1-49b8-9502-e0d161557df4")
-		)
-		(pin "3"
-			(uuid "98c8f1fe-99a8-42b4-9d93-0905f2c859da")
-		)
-		(instances
-			(project ""
-				(path "/2fdb04a5-9ef0-4562-a058-20208c98699a"
-					(reference "U1")
-					(unit 3)
 				)
 			)
 		)
@@ -4748,6 +4638,92 @@
 			(project ""
 				(path "/2fdb04a5-9ef0-4562-a058-20208c98699a"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:LMV358")
+		(at 146.05 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c9d69f21-d2d4-4a6e-a391-c61a12635ce3")
+		(property "Reference" "U1"
+			(at 146.05 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LMV358"
+			(at 146.05 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DFN_QFN:OnSemi_UDFN-8_1.2x1.8mm_P0.4mm"
+			(at 146.05 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lmv324.pdf"
+			(at 146.05 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual Low-Voltage Rail-to-Rail Output Operational Amplifiers, SOIC-8/SSOP-8"
+			(at 146.05 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "90123426-823d-4d65-95d9-8fba1497bdfa")
+		)
+		(pin "1"
+			(uuid "9a19b201-f421-42d7-923e-7b03a911a48f")
+		)
+		(pin "2"
+			(uuid "cd59941b-6f76-4814-8209-00925940b5eb")
+		)
+		(pin "4"
+			(uuid "bc1075bc-9cc5-491e-9ec1-e03ddda54e57")
+		)
+		(pin "5"
+			(uuid "d8778b05-71d3-4502-bb3a-22d6566a6fd5")
+		)
+		(pin "3"
+			(uuid "b363beb3-4ffd-49fc-8f46-9832b6b3b292")
+		)
+		(pin "6"
+			(uuid "47f9f657-0a41-4b6e-987d-09e810f009f2")
+		)
+		(pin "7"
+			(uuid "4bfeb567-f152-4ff8-9286-bc51c34a09e7")
+		)
+		(instances
+			(project ""
+				(path "/2fdb04a5-9ef0-4562-a058-20208c98699a"
+					(reference "U1")
 					(unit 1)
 				)
 			)
