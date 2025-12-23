@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "AHE300G-PA4-B"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2025-03-29-08:07:57)
+    (mountForm default
+        (footprintRef "AHE300GPA4B")
+        (spec "System")
+    )
+)

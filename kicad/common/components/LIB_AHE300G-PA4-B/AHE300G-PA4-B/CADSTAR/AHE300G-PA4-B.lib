@@ -1,0 +1,18 @@
+.AHE300G-PA4-B :1 ;Hall Element SIP-4MA BULK 0.5K
+AHE300GPA4B
+*STM IC
+*NGS
+*PLB 1="INPUT(+-)" 2="OUTPUT(+-)" 3="INPUT(-+)" 4="OUTPUT(-+)"
+*MXP 4
+*DFN AHE300G-PA4-B
+~!Manufacturer_Name (Diodes Incorporated)
+~!Manufacturer_Part_Number (AHE300G-PA4-B)
+~!Mouser Part Number (-)
+~!Mouser Price/Stock (-)
+~!Arrow Part Number (-)
+~!Arrow Price/Stock (-)
+~!Link Datasheet (https://www.diodes.com/datasheet/download/AHE300.pdf)
+~!Height (5mm)
+~!3D_Model (AHE300G-PA4-B)
+AHE300G-PA4-B
+1.1!U 2.1!U 3.1!U 4.1!U 

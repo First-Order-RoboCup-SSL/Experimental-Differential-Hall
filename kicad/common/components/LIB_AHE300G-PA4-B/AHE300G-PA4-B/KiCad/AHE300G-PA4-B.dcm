@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AHE300G-PA4-B
+D Hall Element SIP-4MA BULK 0.5K
+K
+F https://www.diodes.com/datasheet/download/AHE300.pdf
+$ENDCMP
+#
+#End Doc Library

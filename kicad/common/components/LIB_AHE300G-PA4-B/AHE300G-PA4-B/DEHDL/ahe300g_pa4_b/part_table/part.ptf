@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'AHE300G_PA4_B'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Diodes Incorporated", "AHE300G-PA4-B" (!) = "", "AHE300GPA4B", "Other", "", "", "", "", "Hall Element SIP-4MA BULK 0.5K", "https://www.diodes.com/datasheet/download/AHE300.pdf", "5 mm"
+END_PART
+
+END.

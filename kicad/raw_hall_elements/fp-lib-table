@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "KiCad")(type "KiCad")(uri "/var/home/alexh/Documents/Imperial/Robocup/Experimental-Differential-Hall/kicad/common/components/LIB_AHE300G-PA4-B/AHE300G-PA4-B/KiCad")(options "")(descr ""))
+)

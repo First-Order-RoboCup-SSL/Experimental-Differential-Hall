@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "2025-11-13_15-22-28")(type "KiCad")(uri "/var/home/alexh/Documents/Imperial/Robocup/Experimental-Differential-Hall/kicad/common/components/ul_MCP6022T-I-SN/KiCADv6/2025-11-13_15-22-28.kicad_sym")(options "")(descr ""))
   (lib (name "2025-11-19_14-31-23")(type "KiCad")(uri "/var/home/alexh/Documents/Imperial/Robocup/Experimental-Differential-Hall/kicad/common/components/ul_LMV358MUTAG/KiCADv6/2025-11-19_14-31-23.kicad_sym")(options "")(descr ""))
+  (lib (name "AHE300G-PA4-B")(type "KiCad")(uri "/var/home/alexh/Documents/Imperial/Robocup/Experimental-Differential-Hall/kicad/common/components/LIB_AHE300G-PA4-B/AHE300G-PA4-B/KiCad/AHE300G-PA4-B.kicad_sym")(options "")(descr ""))
 )

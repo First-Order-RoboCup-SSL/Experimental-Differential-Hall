@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "AHE300GPA4B"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "AHE300GPA4B")
+        (spec "default")
+    )
+)
