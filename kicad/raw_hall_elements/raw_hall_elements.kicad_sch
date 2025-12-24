@@ -213,7 +213,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Amplifier_Operational:LMV358"
+		(symbol "Amplifier_Operational:MCP6002-xMS"
 			(pin_names
 				(offset 0.127)
 			)
@@ -229,7 +229,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "LMV358"
+			(property "Value" "MCP6002-xMS"
 				(at 0 -5.08 0)
 				(effects
 					(font
@@ -247,7 +247,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lmv324.pdf"
+			(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -256,7 +256,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Dual Low-Voltage Rail-to-Rail Output Operational Amplifiers, SOIC-8/SSOP-8"
+			(property "Description" "1MHz, Low-Power Op Amp, MSOP-8"
 				(at 0 0 0)
 				(effects
 					(font
@@ -273,7 +273,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "single opamp"
+			(property "ki_keywords" "dual opamp"
 				(at 0 0 0)
 				(effects
 					(font
@@ -291,7 +291,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "LMV358_1_1"
+			(symbol "MCP6002-xMS_1_1"
 				(polyline
 					(pts
 						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
@@ -359,7 +359,7 @@
 					)
 				)
 			)
-			(symbol "LMV358_2_1"
+			(symbol "MCP6002-xMS_2_1"
 				(polyline
 					(pts
 						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
@@ -427,7 +427,7 @@
 					)
 				)
 			)
-			(symbol "LMV358_3_1"
+			(symbol "MCP6002-xMS_3_1"
 				(pin power_in line
 					(at -2.54 7.62 270)
 					(length 3.81)
@@ -1257,7 +1257,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 17.78) (xy 63.5 19.05)
+			(xy 63.5 17.78) (xy 63.5 27.94)
 		)
 		(stroke
 			(width 0)
@@ -1354,6 +1354,16 @@
 			(type default)
 		)
 		(uuid "2444c6af-4f91-4ff4-a18b-26a89a5f8e4a")
+	)
+	(wire
+		(pts
+			(xy 53.34 27.94) (xy 53.34 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25db89e2-79eb-48c6-ad9d-c4cb5873afe9")
 	)
 	(wire
 		(pts
@@ -1514,6 +1524,16 @@
 			(type default)
 		)
 		(uuid "7d316603-fa7f-4380-8a7b-416963f69caa")
+	)
+	(wire
+		(pts
+			(xy 63.5 54.61) (xy 53.34 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e70a4a9-4702-4fb4-a6c1-f5202fb4b257")
 	)
 	(wire
 		(pts
@@ -1687,6 +1707,16 @@
 	)
 	(wire
 		(pts
+			(xy 63.5 27.94) (xy 53.34 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a823306b-9e5b-4077-ada5-929834a941d1")
+	)
+	(wire
+		(pts
 			(xy 68.58 81.28) (xy 68.58 115.57)
 		)
 		(stroke
@@ -1744,6 +1774,16 @@
 			(type default)
 		)
 		(uuid "c72d1897-537b-4417-ac7f-865cbdf77610")
+	)
+	(wire
+		(pts
+			(xy 63.5 34.29) (xy 63.5 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9c6bc63-8a67-44af-8fbc-f3ac105650bf")
 	)
 	(wire
 		(pts
@@ -3264,94 +3304,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:LMV358")
-		(at 66.04 26.67 0)
-		(unit 3)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4ff9bb6f-7349-4aa2-b4e7-586bccd61383")
-		(property "Reference" "U1"
-			(at 64.77 25.3999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "LMV358"
-			(at 64.77 27.9399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_DFN_QFN:OnSemi_UDFN-8_1.2x1.8mm_P0.4mm"
-			(at 66.04 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lmv324.pdf"
-			(at 66.04 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual Low-Voltage Rail-to-Rail Output Operational Amplifiers, SOIC-8/SSOP-8"
-			(at 66.04 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "8"
-			(uuid "90123426-823d-4d65-95d9-8fba1497bdfa")
-		)
-		(pin "1"
-			(uuid "9a19b201-f421-42d7-923e-7b03a911a48f")
-		)
-		(pin "2"
-			(uuid "cd59941b-6f76-4814-8209-00925940b5eb")
-		)
-		(pin "4"
-			(uuid "bc1075bc-9cc5-491e-9ec1-e03ddda54e57")
-		)
-		(pin "5"
-			(uuid "d8778b05-71d3-4502-bb3a-22d6566a6fd5")
-		)
-		(pin "3"
-			(uuid "b363beb3-4ffd-49fc-8f46-9832b6b3b292")
-		)
-		(pin "6"
-			(uuid "47f9f657-0a41-4b6e-987d-09e810f009f2")
-		)
-		(pin "7"
-			(uuid "4bfeb567-f152-4ff8-9286-bc51c34a09e7")
-		)
-		(instances
-			(project ""
-				(path "/2fdb04a5-9ef0-4562-a058-20208c98699a"
-					(reference "U1")
-					(unit 3)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 63.5 127 90)
 		(unit 1)
@@ -3614,6 +3566,94 @@
 				(path "/2fdb04a5-9ef0-4562-a058-20208c98699a"
 					(reference "#PWR011")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:MCP6002-xMS")
+		(at 55.88 46.99 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "614585fd-3b34-4f82-943a-0fd61fd7af72")
+		(property "Reference" "U2"
+			(at 54.61 45.7199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MCP6002-xMS"
+			(at 54.61 48.2599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:MSOP-8_3x3mm_P0.65mm"
+			(at 55.88 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf"
+			(at 55.88 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1MHz, Low-Power Op Amp, MSOP-8"
+			(at 55.88 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "56d79d61-42a1-4d9a-8d64-3562723c5ce0")
+		)
+		(pin "2"
+			(uuid "ac62a26f-1865-4347-a51d-c8072f0ceee7")
+		)
+		(pin "1"
+			(uuid "b77f5b31-fd2f-4b00-a5e0-789b926cd029")
+		)
+		(pin "3"
+			(uuid "c7200d8b-c798-4af8-81fc-6286c1d230d3")
+		)
+		(pin "8"
+			(uuid "fc4492f4-d997-423a-84dc-35f613071b6f")
+		)
+		(pin "6"
+			(uuid "951c9ed3-058e-4d64-9841-cd7827c82aed")
+		)
+		(pin "5"
+			(uuid "20f6f619-d8f1-4a67-85cf-2569feb0f9b4")
+		)
+		(pin "7"
+			(uuid "bad8cbc2-0f6f-4137-9901-9413fcb57fb9")
+		)
+		(instances
+			(project ""
+				(path "/2fdb04a5-9ef0-4562-a058-20208c98699a"
+					(reference "U2")
+					(unit 3)
 				)
 			)
 		)
@@ -3953,92 +3993,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:LMV358")
-		(at 139.7 86.36 0)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8de1675f-2697-44f6-b361-8c1e00682239")
-		(property "Reference" "U1"
-			(at 139.7 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LMV358"
-			(at 139.7 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_DFN_QFN:OnSemi_UDFN-8_1.2x1.8mm_P0.4mm"
-			(at 139.7 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lmv324.pdf"
-			(at 139.7 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual Low-Voltage Rail-to-Rail Output Operational Amplifiers, SOIC-8/SSOP-8"
-			(at 139.7 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "8"
-			(uuid "90123426-823d-4d65-95d9-8fba1497bdfb")
-		)
-		(pin "1"
-			(uuid "9a19b201-f421-42d7-923e-7b03a911a490")
-		)
-		(pin "2"
-			(uuid "cd59941b-6f76-4814-8209-00925940b5ec")
-		)
-		(pin "4"
-			(uuid "bc1075bc-9cc5-491e-9ec1-e03ddda54e58")
-		)
-		(pin "5"
-			(uuid "d8778b05-71d3-4502-bb3a-22d6566a6fd6")
-		)
-		(pin "3"
-			(uuid "b363beb3-4ffd-49fc-8f46-9832b6b3b293")
-		)
-		(pin "6"
-			(uuid "47f9f657-0a41-4b6e-987d-09e810f009f3")
-		)
-		(pin "7"
-			(uuid "4bfeb567-f152-4ff8-9286-bc51c34a09e8")
-		)
-		(instances
-			(project ""
-				(path "/2fdb04a5-9ef0-4562-a058-20208c98699a"
-					(reference "U1")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
 		(at 194.31 66.04 0)
 		(unit 1)
@@ -4235,6 +4189,92 @@
 			(project "raw_hall_elements"
 				(path "/2fdb04a5-9ef0-4562-a058-20208c98699a"
 					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:MCP6002-xMS")
+		(at 146.05 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a8e9895e-8b32-4f2a-aae7-d32426329a0a")
+		(property "Reference" "U2"
+			(at 146.05 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MCP6002-xMS"
+			(at 146.05 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:MSOP-8_3x3mm_P0.65mm"
+			(at 146.05 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf"
+			(at 146.05 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1MHz, Low-Power Op Amp, MSOP-8"
+			(at 146.05 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "56d79d61-42a1-4d9a-8d64-3562723c5ce0")
+		)
+		(pin "2"
+			(uuid "ac62a26f-1865-4347-a51d-c8072f0ceee7")
+		)
+		(pin "1"
+			(uuid "b77f5b31-fd2f-4b00-a5e0-789b926cd029")
+		)
+		(pin "3"
+			(uuid "c7200d8b-c798-4af8-81fc-6286c1d230d3")
+		)
+		(pin "8"
+			(uuid "fc4492f4-d997-423a-84dc-35f613071b6f")
+		)
+		(pin "6"
+			(uuid "951c9ed3-058e-4d64-9841-cd7827c82aed")
+		)
+		(pin "5"
+			(uuid "20f6f619-d8f1-4a67-85cf-2569feb0f9b4")
+		)
+		(pin "7"
+			(uuid "bad8cbc2-0f6f-4137-9901-9413fcb57fb9")
+		)
+		(instances
+			(project ""
+				(path "/2fdb04a5-9ef0-4562-a058-20208c98699a"
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -4642,92 +4682,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:LMV358")
-		(at 146.05 64.77 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c9d69f21-d2d4-4a6e-a391-c61a12635ce3")
-		(property "Reference" "U1"
-			(at 146.05 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LMV358"
-			(at 146.05 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_DFN_QFN:OnSemi_UDFN-8_1.2x1.8mm_P0.4mm"
-			(at 146.05 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lmv324.pdf"
-			(at 146.05 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual Low-Voltage Rail-to-Rail Output Operational Amplifiers, SOIC-8/SSOP-8"
-			(at 146.05 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "8"
-			(uuid "90123426-823d-4d65-95d9-8fba1497bdfc")
-		)
-		(pin "1"
-			(uuid "9a19b201-f421-42d7-923e-7b03a911a491")
-		)
-		(pin "2"
-			(uuid "cd59941b-6f76-4814-8209-00925940b5ed")
-		)
-		(pin "4"
-			(uuid "bc1075bc-9cc5-491e-9ec1-e03ddda54e59")
-		)
-		(pin "5"
-			(uuid "d8778b05-71d3-4502-bb3a-22d6566a6fd7")
-		)
-		(pin "3"
-			(uuid "b363beb3-4ffd-49fc-8f46-9832b6b3b294")
-		)
-		(pin "6"
-			(uuid "47f9f657-0a41-4b6e-987d-09e810f009f4")
-		)
-		(pin "7"
-			(uuid "4bfeb567-f152-4ff8-9286-bc51c34a09e9")
-		)
-		(instances
-			(project ""
-				(path "/2fdb04a5-9ef0-4562-a058-20208c98699a"
-					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 124.46 24.13 90)
 		(unit 1)
@@ -4925,6 +4879,92 @@
 				(path "/2fdb04a5-9ef0-4562-a058-20208c98699a"
 					(reference "R3")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:MCP6002-xMS")
+		(at 139.7 86.36 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "da55b48d-7d42-4039-a5a7-2ace4e491796")
+		(property "Reference" "U2"
+			(at 139.7 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MCP6002-xMS"
+			(at 139.7 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:MSOP-8_3x3mm_P0.65mm"
+			(at 139.7 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf"
+			(at 139.7 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1MHz, Low-Power Op Amp, MSOP-8"
+			(at 139.7 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "56d79d61-42a1-4d9a-8d64-3562723c5ce0")
+		)
+		(pin "2"
+			(uuid "ac62a26f-1865-4347-a51d-c8072f0ceee7")
+		)
+		(pin "1"
+			(uuid "b77f5b31-fd2f-4b00-a5e0-789b926cd029")
+		)
+		(pin "3"
+			(uuid "c7200d8b-c798-4af8-81fc-6286c1d230d3")
+		)
+		(pin "8"
+			(uuid "fc4492f4-d997-423a-84dc-35f613071b6f")
+		)
+		(pin "6"
+			(uuid "951c9ed3-058e-4d64-9841-cd7827c82aed")
+		)
+		(pin "5"
+			(uuid "20f6f619-d8f1-4a67-85cf-2569feb0f9b4")
+		)
+		(pin "7"
+			(uuid "bad8cbc2-0f6f-4137-9901-9413fcb57fb9")
+		)
+		(instances
+			(project ""
+				(path "/2fdb04a5-9ef0-4562-a058-20208c98699a"
+					(reference "U2")
+					(unit 2)
 				)
 			)
 		)
